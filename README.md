@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## Project Overview
-We are working with Beks at Alphabet Soup, a non-profit that focusses on providing funding for verious organizations. We are working to develop a model that will help predict whether applicants will be successful if they are funded by Alphabet Soup.  We will be using past data to build a Neural Network model to help with future predictions.  
+I am working with Beks at Alphabet Soup, a non-profit that focusses on providing funding for verious organizations. We are working to develop a model that will help predict whether applicants will be successful if they are funded by Alphabet Soup.  We will be using past data to build a Neural Network model to help with future predictions.  
 
 ## Resources
 - Data Source: charity_data.csv
@@ -12,7 +12,7 @@ We are working with Beks at Alphabet Soup, a non-profit that focusses on providi
 - Language: Python 3.6.7
 - Conda Env: mlenv
 
-## Results - DATA PREPROCESSION - ORIGINAL MODEL
+## Results - DATA PREPROCESSION - ORIGINAL MODEL (DELIVERABLE 1 & 2)
 ### The variables that are considered targets for the model are:
 - Is_Successful
 
@@ -38,10 +38,11 @@ We are working with Beks at Alphabet Soup, a non-profit that focusses on providi
 ![5 epoch saving](https://github.com/tessiertodd/Neural_Network_Charity_Analysis/blob/main/Pics/Save%20Callback%20every%205%20epochs.png)
 
 
-## Results - COMPILING, TRAINING AND EVALUATING THE MODEL - OPTIMIZATION
-- I had originally chose 2 layers (How many neurons, layers, and activation functions did you select for your neural network model, and why?)
-- I was not able to achieve the target model performance, despite making many changes (Were you able to achieve the target model performance?)
-- I removed columns, added a layer and even tried removing classification or application_type, both of which decreased the performance. Increasing the epochs did seem to improve the performance a little, though not enough to hit the 75% objective. (What steps did you take to try and increase model performance?)
+## Results - COMPILING, TRAINING AND EVALUATING THE MODEL - OPTIMIZATION (DELIVERABLE 3)
+- Original Model had 2 hidden layers and 1 outer layer, but with optimization work I have added an additional hidden layer. Original Model had 43 neurons in first hidden layer, 80 neurons in first hidden layer and 30 neurons in second hidden layer.  The activation functions I used in the hidden layers were relu, and sigmoid on outer layer... chose those activation functions as they are the best given the type of data.
+- I was not able to achieve the target model performance, despite making many changes - tried multiple changes on 3 different models results below.
+- I removed columns, added a layer and even tried removing classification or application_type, both of which decreased the performance. Increasing the epochs did seem to improve the performance a little, though not enough to hit the 75% objective. I also increased the number of neurons and increased the number of layers.
+- Even with all the changes that I tried, I was not able to get the model to achieve a 75% performance.
 
 ### Optimization 1
 ![Optimization 1](https://github.com/tessiertodd/Neural_Network_Charity_Analysis/blob/main/Pics/Model%20Performance%20Opt%201.png)
