@@ -12,7 +12,7 @@ We are working with Beks at Alphabet Soup, a non-profit that focusses on providi
 - Language: Python 3.6.7
 - Conda Env: mlenv
 
-## Results - DATA PREPROCESSION
+## Results - DATA PREPROCESSION - ORIGINAL MODEL
 ### The variables that are considered targets for the model are:
 - Is_Successful
 
@@ -31,14 +31,26 @@ We are working with Beks at Alphabet Soup, a non-profit that focusses on providi
 - EIN
 - Name
 
-## Results - COMPILING, TRAINING AND EVALUATING THE MODEL
+### Original Model Performance:
+![Model Performance](https://github.com/tessiertodd/Neural_Network_Charity_Analysis/blob/main/Pics/Save%20Callback%20every%205%20epochs.png)
+
+### Callback to Save Model's Weight Every 5 Epochs:
+![5 epoch saving](https://github.com/tessiertodd/Neural_Network_Charity_Analysis/blob/main/Pics/Save%20Callback%20every%205%20epochs.png)
+
+
+## Results - COMPILING, TRAINING AND EVALUATING THE MODEL - OPTIMIZATION
 - I had originally chose 2 layers (How many neurons, layers, and activation functions did you select for your neural network model, and why?)
 - I was not able to achieve the target model performance, despite making many changes (Were you able to achieve the target model performance?)
 - I removed columns, added a layer and even tried removing classification or application_type, both of which decreased the performance. Increasing the epochs did seem to improve the performance a little, though not enough to hit the 75% objective. (What steps did you take to try and increase model performance?)
 
+### Optimization 1
+![Optimization 1](https://github.com/tessiertodd/Neural_Network_Charity_Analysis/blob/main/Pics/Model%20Performance%20Opt%201.png)
 
-### Slope Results:
-![Slope results](https://github.com/tessiertodd/MechaCar_Statistical_Analysis/blob/main/Deliverable%201%20coefficients.png)
+### Optimization 2
+![Optimization 2](https://github.com/tessiertodd/Neural_Network_Charity_Analysis/blob/main/Pics/Model%20Performance%20Opt%202.png)
+
+### Optimization 3
+![Optimization 3](https://github.com/tessiertodd/Neural_Network_Charity_Analysis/blob/main/Pics/Model%20Performance%20Opt%203.png)
 
 
 ### Summary
