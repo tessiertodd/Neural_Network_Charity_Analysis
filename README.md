@@ -42,6 +42,6 @@ We are working with Beks at Alphabet Soup, a non-profit that focusses on providi
 
 
 ### Summary
-Unfortunately we were not able to adjust model to reach 75% accuracy, but was veryt interesting to see how changing different things would adjust the outcome, even if just slightly.  When I excluded some variables from being features, I saw that accuracy dropped to between 65-70%, much less that the just over 72% we started with on first iterration of our model.
+Unfortunately we were not able to adjust model to reach 75% accuracy, but was very interesting to see how changing different things would adjust the outcome, even if just slightly.  When I excluded some variables from being features, I saw that accuracy dropped to between 65-70%, much less that the just over 72% we started with on first iterration of our model.
 
 We could try to use a linear regression model or another machine learning model to see if we could improve the predicability.
